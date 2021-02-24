@@ -1,0 +1,96 @@
+		h1{
+	color: #EBF0EB;
+	font-family: sans-serif;
+	background-color: #000000;
+	height: auto;
+	padding-left: 0px;
+	text-align: center;
+}
+			p{color:black;}
+		ul{list-style-type: circle;}
+		ol{list-style-type: upper-roman;}
+		nav a{font-family:sans-serif; text-decoration:none; background-color:white; color:black; padding:5px;}
+		nav a:visited{text-decoration:none; background-color:green; color:white;}
+		nav a:hover{background-color: black;color:white;}
+		nav a:active{background-color:purple; color: black;}
+
+		/*this will style the table*/
+		table{font-family: Hevetica, sans-serif; border-collapse: collapse;border-width: 1px;border-style: solid;border-color: pink; margin: auto;}
+
+		th{font-weight: 800; color: black; background-color: #00804d; 	}
+		tr{font-family: sans-serif;font-size: 14px;color: black;}
+
+		#home{
+			margin-top: 39px;
+			padding-top: 0px;
+			padding-right: 2px;
+			background-color: #000000;}
+
+		#nav{
+	width: 98%;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	padding: 5px;
+	background-color: #cae8ca;
+	border: 2px solid #4CAF50;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+S;
+	margin-right: auto;
+	margin-left: auto;
+}
+h2 {
+	width: 100%;
+	padding-left: 14px;
+}
+
+		#body{
+	width: 100%;
+	background-color: #102C35;
+	color: white;
+	background-image: -webkit-linear-gradient(270deg,rgba(148,221,114,1.00) 0%,rgba(86,174,162,1.00) 24.35%,rgba(151,87,43,1.00) 47.67%,rgba(142,32,224,1.00) 71.50%,rgba(0,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(148,221,114,1.00) 0%,rgba(86,174,162,1.00) 24.35%,rgba(151,87,43,1.00) 47.67%,rgba(142,32,224,1.00) 71.50%,rgba(0,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(148,221,114,1.00) 0%,rgba(86,174,162,1.00) 24.35%,rgba(151,87,43,1.00) 47.67%,rgba(142,32,224,1.00) 71.50%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(148,221,114,1.00) 0%,rgba(86,174,162,1.00) 24.35%,rgba(151,87,43,1.00) 47.67%,rgba(142,32,224,1.00) 71.50%,rgba(0,0,0,1.00) 100%);
+	background-repeat: repeat-y;
+	height: auto;
+}
+
+		#wrapper{
+	width: 88%;
+	height: auto;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -8px;
+}
+
+		#gallery{
+			display: -ms-flexbox; 
+		    display: flex;
+		    -ms-flex-wrap: wrap; 
+		    flex-wrap: wrap;
+		    padding: 0 4px;
+		  	box-sizing: border-box;
+		  	  -ms-flex: 25%; 
+			  flex: 25%;
+			  margin-top: 8px;
+			  vertical-align: middle; }
